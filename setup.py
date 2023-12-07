@@ -98,6 +98,12 @@ install_requires = [
     #   jmespath: MIT
     #   s3transfer: Apache 2.0
     "boto3==1.28.62",
+    # License: BSD
+    # Required for knnvector workload
+    "h5py==3.6.0",
+    # License: BSD
+    # Required for knnvector workload
+    "numpy==1.24.2",
 ]
 
 tests_require = [
